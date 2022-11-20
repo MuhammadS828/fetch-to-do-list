@@ -1,0 +1,112 @@
+body {
+  text-align: center;
+  background-color: rgb(68, 129, 129);
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.tittle {
+  font-size: 30 px;
+  line-height: normal;
+  text-align: center;
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parent {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    width: 800px;
+    background-color: #bdbdbd;
+    height: calc(3rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: "Monotype Corsiva";
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-clip: padding-box;
+    border: 1px solid #949494;
+    border-radius: 3rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.error {
+    background-color: lightpink;
+    border: 1px solid palevioletred;
+    text-align: center;
+    padding: 15px;
+}
+
+.update {
+    background-color: rgb(196, 189, 130);
+    text-decoration: line-through;
+    color: crimson;
+}
+#inp {
+    width: 400px;
+    height: calc(2.2rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: "Monotype Corsiva";
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-clip: padding-box;
+    border: 1px solid #949494;
+    border-radius: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+#btn {
+    background: linear-gradient(to bottom, #9d9e9e, #2a9a9f) #ebebeb repeat-x;
+    border-radius: 3rem;
+    border: 1px solid #949494;
+    border-width: 2px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #ededed;
+    text-decoration: none;
+    font-size: 14px;
+    width: 120px;
+    height: calc(3rem + 2px);
+    line-height: 20px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(66, 66, 66, 0.75);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+}.delete{
+    background-color:#070707;
+    border-radius: 15px;
+    border: 1px solid #949494;
+    color: #ededed;
+    text-decoration: none;
+    font-size: 14px;
+    width: 75px;
+    line-height: 20px;
+    text-align: center;
+
+}
